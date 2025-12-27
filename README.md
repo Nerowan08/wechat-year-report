@@ -23,7 +23,7 @@
   - `jieba`
   - `wordcloud`
 
- 安装依赖:
+ 安装依赖
 
 ```bash
 pip install pandas matplotlib jieba wordcloud
@@ -35,7 +35,7 @@ wordcloud
 然后：
 pip install -r requirements.txt
  
- 输入 TXT 格式要求：
+ 输入TXT格式要求：
 脚本按以下格式解析消息行（每条消息一行）：
 [2025-02-01 16:34:42] wxid_a -> wxid_b: 这里是消息内容
 支持多行消息：如果某行不匹配消息格式，会被当作上一条消息的续行拼接进去。
