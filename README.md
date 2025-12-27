@@ -69,7 +69,7 @@ python wechat_year_report.py \
 •	“最长连续聊天天数”：按“有消息的日期”做连续天数统计；只要某天完全没消息就会断开。
  
  词云生成说明（中文字体）：
-```词云需要中文字体。脚本会尝试在 macOS 常见路径里自动找字体（Songti/PingFang）。
+词云需要中文字体。脚本会尝试在 macOS 常见路径里自动找字体（Songti/PingFang）。
 如果你在 Windows/Linux 上运行，可能会提示无法生成词云：请把 pick_font() 改成你系统字体路径，例如：
 •	Windows：C:\Windows\Fonts\msyh.ttc（微软雅黑）
 •	Linux：安装中文字体后填对应路径
