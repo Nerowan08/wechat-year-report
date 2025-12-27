@@ -27,13 +27,7 @@
 
 ```bash
 pip install pandas matplotlib jieba wordcloud
-（可选）你也可以把下面内容保存为 requirements.txt：
-pandas
-matplotlib
-jieba
-wordcloud
-然后：
-pip install -r requirements.txt```
+
  
 输入TXT格式要求：
 - 脚本按以下格式解析消息行（每条消息一行）：
