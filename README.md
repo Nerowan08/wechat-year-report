@@ -25,7 +25,7 @@
 
  安装依赖
 
-```bash
+bash
 pip install pandas matplotlib jieba wordcloud
 
  
